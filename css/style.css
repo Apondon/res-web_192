@@ -1,0 +1,164 @@
+/* 全局样式 */
+.ct{
+    text-align: center;
+}
+.clrorg{
+    color: orange;
+}
+.clrfff{
+    color:#fff;
+}
+.mgb25{
+    margin-bottom: 25px;
+}
+.w45{
+    width: 45%;
+}
+.clrbl{
+    color: dodgerblue;
+}
+.clryl{
+    color: yellow;
+}
+.clrlg{
+    color: lightgray;
+}
+.warp{
+    word-break: break-all;
+    word-wrap: break-word;
+}
+/* 大屏顶部 */
+.top,.xs-top{
+    position: relative;
+    width: 100%;
+    background: #000;
+    color: #fff;
+}
+/* logo */
+.logo{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+/* 右侧联系电话 */
+.cnt{
+    height: 40px;
+    line-height: 40px;
+    margin: 0;
+    text-align: center;
+    color: orange;
+}
+/* nav */
+.top a{
+    color: #fff;
+}
+.nav>li>a:focus, .nav>li>a:hover{
+    background: deepskyblue;
+}
+.nav-pills>li>a{
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+/* 小屏顶部 */
+.xs-top h1{
+    margin: 0;
+}
+.xs-top h1 span{
+    display: block;
+    font-size: 28px;
+    height: 100%;
+    line-height: 1.1;
+}
+.xs-list{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    display: none;
+}
+.xs-list li{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #ccc;
+    color: #fff;
+}
+.xs-list li:focus , .xs-list li:hover{
+    background: deepskyblue;
+}
+.showItem{
+    display: block;
+}
+/* banner 大屏 */
+.bnr-bg{
+    width: 100%;
+    height: 350px;
+}
+.bg1{
+    background: darkviolet;
+}
+.bg2{
+    background: greenyellow;
+}
+.bg3{
+    background: tomato;
+}
+
+
+/* 服务 */
+.sev-bg{
+    width: 100%;
+    height: 400px;
+}
+.service .col-md-3{
+    padding: 0;
+}
+
+/* 产品 */
+.pjt-bg{
+    width: 100%;
+    height: 200px;
+    background: lightgrey;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.pjt-img{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+.project .col-md-3{
+    padding: 0;
+}
+/* 关于我们 */
+.abt-bg {
+    width: 100%;
+    height: 200px;
+}
+@media (max-width: 767px){
+    .bnr-bg{
+        height: 175px !important;
+    }
+    .sev-bg{
+        height: 200px !important;
+    }
+}
+
+/* 发送 */
+.tell{
+    height: 500px;
+    background: url(../img/tell_bg.png) no-repeat;
+    background-size: cover;
+}
+/* 联系 */
+.connect{
+    padding-bottom: 25px;
+    background: #333;
+}
+/* 注册信息 */
+.copyright{
+    background: #000;
+}
